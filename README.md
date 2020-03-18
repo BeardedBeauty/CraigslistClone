@@ -1,1 +1,1 @@
-# CraigslistClone
+# Craigslist Clone, scraped content from Craigslist simply displayed in a less late '90s way
