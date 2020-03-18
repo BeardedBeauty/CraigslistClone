@@ -1,0 +1,9 @@
+.center50 {
+    margin-left: 50%;
+}
+
+.containerManual {
+    width: 1000px;
+    overflow: auto;
+    margin-left: -500px;
+}
