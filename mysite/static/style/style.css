@@ -1,0 +1,49 @@
+.center50 {
+    margin-left: 50%;
+}
+
+.containerManual {
+    width: 1000px;
+    overflow: auto;
+    margin-left: -500px;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+input {
+  clear: left;
+}
+
+.input-field label {
+    color: #0057da;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #33da00;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #9500da;
+    box-shadow: 0 1px 0 0 #000000;
+  }
+
+.iconCenter {
+  /* text-align: center; */
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: purple;
+}
+
+.blockDisplay {
+  float: left;
+  width: 333px;
+  height: 300px;
+  text-align: center;
+}

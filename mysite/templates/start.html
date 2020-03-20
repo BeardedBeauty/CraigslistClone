@@ -4,24 +4,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{% static '/style.css' %}">
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Craigslist II</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
 <body>
     <nav>
         <div class="nav-wrapper purple">
-            <a href="/" class="brand-logo">Craigslist 2</a>
-            <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <div class="container">
+                <a href="/" class="brand-logo">Craigslist 2</a>
+                <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                </li>
             </ul> -->
+            </div>
         </div>
     </nav>
+    <br><br>
     <div class="center50">
         <div class="containerManual">
-            <h1>yes</h1>
+            <form class="search">
+                <div class="input-field">
+                    <input id="search" type="search">
+                    <label for="search">Search</label>
+                </div>
+            </form>
+            <br><br><br><br><br>
+            <div class="blockDisplay">
+                <div class="iconCenter">
+                    <i class="material-icons large">forum</i>
+                </div>
+                <h5>forums</h5>
+            </div>
+            <div class="blockDisplay">
+                <div class="iconCenter">
+                    <i class="material-icons large">description</i>
+                </div>
+                <h5>classifieds</h5>
+            </div>
+            <div class="blockDisplay">
+                <div class="iconCenter">
+                    <i class="material-icons large">accessibility</i>
+                </div>
+                <h5>c-list for all</h5>
+            </div>
         </div>
     </div>
     <footer class="page-footer green">
