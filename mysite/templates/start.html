@@ -51,7 +51,8 @@
                     <h5>c-list for all</h5>
                 </div>
             </div>
-            <form class="search">
+            <form class="search" action="{% url 'search' %}" method="POST">
+                {% csrf_token %}
                 <div class="input-field">
                     <input id="search" type="search">
                     <label for="search">Search</label>
